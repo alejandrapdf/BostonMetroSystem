@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="map" minHeight="649.0" prefHeight="649.0" prefWidth="1155.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cs308gui.CS308AssignmentBoston.Controller">
+    <!-- TODO Add Nodes -->
+    <children>
+        <ImageView fitHeight="645.2120582031275" fitWidth="639.9999008078233" layoutX="3.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@mapfinal.png" />
+            </image>
+        </ImageView>
+    <Line id="57-54-47-46" endX="-58.0" endY="-43.0" fill="WHITE" layoutX="308.0" layoutY="307.0" startX="-71.0" startY="-44.0" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false">
+      <stroke>
+        <Color blue="0.749" green="0.749" red="0.749" fx:id="x5" />
+      </stroke>
+    </Line>
+    <Line id="30-29" endX="-62.0" endY="17.0" fill="WHITE" layoutX="475.0" layoutY="246.0" startX="-88.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.7" visible="false" />
+    <Line id="105-104" endX="-86.0" endY="21.0" fill="WHITE" layoutX="517.0" layoutY="471.0" startX="-87.0" startY="10.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.7" visible="false" />
+    <Line id="106-105" endX="-86.0" endY="21.0" fill="WHITE" layoutX="517.0" layoutY="487.0" startX="-87.0" startY="10.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.7" visible="false" />
+    <Line id="33-30" endX="-63.0" endY="17.0" fill="WHITE" layoutX="501.0" layoutY="272.0" startX="-88.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.7" visible="false" />
+    <Line id="31-29" endX="-56.0" endY="-20.0" layoutX="442.0" layoutY="256.0" startX="-82.0" startY="6.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.7" visible="false">
+      <fill>
+        <Color blue="0.000" green="0.800" red="0.063" fx:id="x2" />
+      </fill>
+    </Line>
+    <Line id="29-27" endX="-61.0" endY="-15.0" fill="$x2" layoutX="469.0" layoutY="230.0" startX="-82.0" startY="6.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.7" visible="false" />
+    <Line id="27-22" endX="-65.0" endY="-13.0" fill="$x2" layoutX="490.0" layoutY="210.0" startX="-82.0" startY="6.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.7" visible="false" />
+    <Line id="22-20" endX="-81.0" endY="-20.0" fill="$x2" layoutX="506.0" layoutY="194.0" startX="-82.0" startY="4.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.7" visible="false" />
+    <Line id="20-19" endX="-81.0" endY="-20.0" fill="$x2" layoutX="486.0" layoutY="169.0" startX="-60.0" startY="3.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.7" visible="false" />
+    <Line id="34-31" endX="-80.0" endY="-17.0" fill="$x2" layoutX="412.0" layoutY="280.0" startX="-54.0" startY="-17.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.7" visible="false" />
+    <Line id="41-34" endX="-80.0" endY="-17.0" fill="$x2" layoutX="386.0" layoutY="280.0" startX="-54.0" startY="-17.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.7" visible="false" />
+    <Line id="51-47" endX="-80.0" endY="-17.0" fill="$x2" layoutX="331.0" layoutY="280.0" startX="-54.0" startY="-17.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.7" visible="false" />
+    <Line id="29-25" endX="-71.0" endY="9.0" fill="WHITE" layoutX="458.0" layoutY="229.0" startX="-88.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.7" visible="false" />
+    <Line id="79-70" endX="-76.0" endY="-15.0" fill="WHITE" layoutX="358.0" layoutY="333.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="47-46" endX="-69.0" endY="-30.0" fill="WHITE" layoutX="312.0" layoutY="294.0" startX="-73.0" startY="-36.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="62-53" endX="-74.0" endY="-15.0" fill="WHITE" layoutX="363.0" layoutY="307.0" startX="-75.0" startY="3.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="57-47" endX="-60.0" endY="-49.0" fill="WHITE" layoutX="303.0" layoutY="316.0" startX="-73.0" startY="-36.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="51-41" endX="-61.0" endY="-36.0" fill="WHITE" layoutX="353.0" layoutY="299.0" startX="-73.0" startY="-36.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="27-24" endX="-72.0" endY="-6.0" fill="WHITE" layoutX="479.0" layoutY="219.0" startX="-86.0" startY="-19.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="50-48" endX="-75.0" endY="-21.0" fill="WHITE" layoutX="233.0" layoutY="209.0" startX="-86.0" startY="-19.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="48-42" endX="-72.0" endY="-28.0" fill="WHITE" layoutX="243.0" layoutY="219.0" startX="-87.0" startY="-31.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="112-111" endX="-74.0" endY="9.0" fill="WHITE" layoutX="444.0" layoutY="510.0" startX="-88.0" startY="9.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="111-110" endX="-74.0" endY="9.0" fill="WHITE" layoutX="458.0" layoutY="510.0" startX="-88.0" startY="9.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="110-109" endX="-74.0" endY="9.0" fill="WHITE" layoutX="471.0" layoutY="510.0" startX="-88.0" startY="9.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="109-108" endX="-74.0" endY="9.0" fill="WHITE" layoutX="484.0" layoutY="510.0" startX="-88.0" startY="9.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="108-107" endX="-74.0" endY="9.0" fill="WHITE" layoutX="497.0" layoutY="510.0" startX="-88.0" startY="9.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="103-100" endX="-87.0" endY="23.0" fill="WHITE" layoutX="517.0" layoutY="444.0" startX="-87.0" startY="10.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="104-103" endX="-86.0" endY="21.0" fill="WHITE" layoutX="517.0" layoutY="456.0" startX="-87.0" startY="10.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="124-123" endX="-86.0" endY="21.0" fill="WHITE" layoutX="629.0" layoutY="523.0" startX="-86.0" startY="-7.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="121-120" endX="-69.0" endY="11.0" fill="WHITE" layoutX="582.0" layoutY="471.0" startX="-86.0" startY="-7.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="98-94" endX="-86.0" endY="19.0" fill="WHITE" layoutX="541.0" layoutY="374.0" startX="-86.0" startY="-7.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="94-60" endX="-86.0" endY="19.0" fill="WHITE" layoutX="541.0" layoutY="346.0" startX="-86.0" startY="-7.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="4-3" endX="-106.0" endY="14.0" fill="WHITE" layoutX="689.0" layoutY="71.0" startX="-85.0" startY="-6.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="6-4" endX="-102.0" endY="11.0" fill="WHITE" layoutX="670.0" layoutY="90.0" startX="-85.0" startY="-6.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="9-6" endX="-101.0" endY="10.0" fill="WHITE" layoutX="653.0" layoutY="107.0" startX="-85.0" startY="-6.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="11-9" endX="-101.0" endY="10.0" fill="WHITE" layoutX="637.0" layoutY="123.0" startX="-85.0" startY="-6.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="13-11" endX="-101.0" endY="10.0" fill="WHITE" layoutX="619.0" layoutY="140.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="16-13" endX="-99.0" endY="8.0" fill="WHITE" layoutX="603.0" layoutY="157.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="18-16" endX="-99.0" endY="8.0" fill="WHITE" layoutX="588.0" layoutY="172.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="26-18" endX="-114.0" endY="24.0" fill="WHITE" layoutX="571.0" layoutY="189.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="8-7" endX="-57.0" endY="18.0" fill="WHITE" layoutX="313.0" layoutY="88.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="10-7" endX="-63.0" endY="11.0" fill="WHITE" layoutX="339.0" layoutY="115.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="14-10" endX="-60.0" endY="16.0" fill="WHITE" layoutX="358.0" layoutY="133.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="21-14" endX="-60.0" endY="16.0" fill="WHITE" layoutX="380.0" layoutY="155.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="23-21" endX="-62.0" endY="14.0" fill="WHITE" layoutX="404.0" layoutY="179.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="25-23" endX="-54.0" endY="22.0" fill="WHITE" layoutX="425.0" layoutY="200.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="96-95" endX="-74.0" endY="-17.0" fill="WHITE" layoutX="300.0" layoutY="391.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="95-92" endX="-74.0" endY="-17.0" fill="WHITE" layoutX="308.0" layoutY="383.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="92-89" endX="-74.0" endY="-17.0" fill="WHITE" layoutX="316.0" layoutY="375.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="89-88" endX="-76.0" endY="-15.0" fill="WHITE" layoutX="324.0" layoutY="367.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="88-87" endX="-76.0" endY="-15.0" fill="WHITE" layoutX="332.0" layoutY="359.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="87-84" endX="-76.0" endY="-15.0" fill="WHITE" layoutX="340.0" layoutY="351.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="84-79" endX="-76.0" endY="-15.0" fill="WHITE" layoutX="349.0" layoutY="342.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="91-85" endX="-76.0" endY="-15.0" fill="WHITE" layoutX="278.0" layoutY="324.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="86-85" endX="-76.0" endY="-15.0" fill="WHITE" layoutX="267.0" layoutY="334.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="113-86" endX="-76.0" endY="-15.0" fill="WHITE" layoutX="258.0" layoutY="343.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="114-113" endX="-76.0" endY="-15.0" fill="WHITE" layoutX="248.0" layoutY="353.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="115-114" endX="-72.0" endY="-18.0" fill="WHITE" layoutX="237.0" layoutY="363.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="116-115" endX="-75.0" endY="-17.0" fill="WHITE" layoutX="229.0" layoutY="372.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="117-116" endX="-76.0" endY="-15.0" fill="WHITE" layoutX="221.0" layoutY="380.0" startX="-87.0" startY="-5.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="118-117" endX="-76.0" endY="-15.0" fill="WHITE" layoutX="211.0" layoutY="390.0" startX="-87.0" startY="-5.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="91-90" endX="-74.0" endY="-17.0" fill="WHITE" layoutX="286.0" layoutY="315.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="90-65" endX="-74.0" endY="-17.0" fill="WHITE" layoutX="295.0" layoutY="306.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="65-57" endX="-74.0" endY="-17.0" fill="WHITE" layoutX="305.0" layoutY="296.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="63-61" endX="-74.0" endY="-17.0" fill="WHITE" layoutX="249.0" layoutY="263.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="68-63" endX="-74.0" endY="-17.0" fill="WHITE" layoutX="241.0" layoutY="272.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="73-68" endX="-74.0" endY="-17.0" fill="WHITE" layoutX="232.0" layoutY="281.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="74-73" endX="-74.0" endY="-17.0" fill="WHITE" layoutX="222.0" layoutY="290.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="76-74" endX="-74.0" endY="-17.0" fill="WHITE" layoutX="213.0" layoutY="299.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="77-76" endX="-74.0" endY="-17.0" fill="WHITE" layoutX="204.0" layoutY="309.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="80-77" endX="-74.0" endY="-17.0" fill="WHITE" layoutX="193.0" layoutY="320.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="81-80" endX="-74.0" endY="-17.0" fill="WHITE" layoutX="183.0" layoutY="329.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="75-72" endX="-75.0" endY="-15.0" fill="WHITE" layoutX="158.0" layoutY="268.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="78-75" endX="-73.0" endY="-18.0" fill="WHITE" layoutX="167.0" layoutY="259.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="78-71" endX="-75.0" endY="-15.0" fill="WHITE" layoutX="175.0" layoutY="251.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="71-67" endX="-75.0" endY="-15.0" fill="WHITE" layoutX="183.0" layoutY="243.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="67-66" endX="-75.0" endY="-15.0" fill="WHITE" layoutX="190.0" layoutY="236.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="66-59" endX="-75.0" endY="-15.0" fill="WHITE" layoutX="198.0" layoutY="228.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="59-55" endX="-75.0" endY="-15.0" fill="WHITE" layoutX="205.0" layoutY="221.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="55-49" endX="-75.0" endY="-15.0" fill="WHITE" layoutX="213.0" layoutY="213.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="50-49" endX="-75.0" endY="-15.0" fill="WHITE" layoutX="221.0" layoutY="205.0" startX="-83.0" startY="-8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="42-40" endX="-72.0" endY="-6.0" fill="WHITE" layoutX="248.0" layoutY="201.0" startX="-81.0" startY="-13.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="40-36" endX="-72.0" endY="-6.0" fill="WHITE" layoutX="255.0" layoutY="208.0" startX="-81.0" startY="-13.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="36-35" endX="-72.0" endY="-6.0" fill="WHITE" layoutX="261.0" layoutY="214.0" startX="-81.0" startY="-13.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="37-35" endX="-72.0" endY="-6.0" fill="WHITE" layoutX="270.0" layoutY="222.0" startX="-81.0" startY="-13.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="38-37" endX="-72.0" endY="-6.0" fill="WHITE" layoutX="278.0" layoutY="230.0" startX="-81.0" startY="-13.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="39-38" endX="-72.0" endY="-6.0" fill="WHITE" layoutX="286.0" layoutY="238.0" startX="-81.0" startY="-13.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="43-39" endX="-72.0" endY="-6.0" fill="WHITE" layoutX="295.0" layoutY="247.0" startX="-81.0" startY="-13.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="45-43" endX="-69.0" endY="-3.0" fill="WHITE" layoutX="303.0" layoutY="255.0" startX="-81.0" startY="-13.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="46-45" endX="-72.0" endY="-6.0" fill="WHITE" layoutX="311.0" layoutY="263.0" startX="-81.0" startY="-13.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="56-54" endX="-71.0" endY="-3.0" fill="WHITE" layoutX="287.0" layoutY="257.0" startX="-81.0" startY="-13.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="120-100-98" endX="-86.0" endY="17.0" fill="WHITE" layoutX="541.0" layoutY="402.0" startX="-86.0" startY="-7.0" stroke="$x5" strokeLineCap="SQUARE" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="122-121" endX="-69.0" endY="11.0" fill="WHITE" layoutX="599.0" layoutY="488.0" startX="-86.0" startY="-7.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="28-22" endX="-59.0" endY="-20.0" fill="$x2" layoutX="491.0" layoutY="217.0" startX="-58.0" startY="13.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="22-20O" endX="-58.0" endY="-10.0" fill="$x2" layoutX="490.0" layoutY="184.0" startX="-58.0" startY="13.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="20-15" endX="-57.0" endY="-35.0" fill="$x2" layoutX="489.0" layoutY="162.0" startX="-57.0" startY="16.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="15-12" endX="-58.0" endY="-10.0" fill="$x2" layoutX="490.0" layoutY="120.0" startX="-58.0" startY="8.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="12-5" endX="-58.0" endY="-10.0" fill="$x2" layoutX="490.0" layoutY="86.0" startX="-58.0" startY="25.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="5-2" endX="-58.0" endY="-10.0" fill="$x2" layoutX="490.0" layoutY="70.0" startX="-58.0" startY="7.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="2-1" endX="-58.0" endY="-10.0" fill="$x2" layoutX="490.0" layoutY="51.0" startX="-58.0" startY="7.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="93-82" endX="-71.0" endY="-6.0" fill="$x2" layoutX="382.0" layoutY="370.0" startX="-89.0" startY="12.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="64-52" endX="-71.0" endY="-5.0" fill="$x2" layoutX="413.0" layoutY="338.0" startX="-87.0" startY="11.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="52-44" endX="-69.0" endY="-7.0" fill="$x2" layoutX="426.0" layoutY="325.0" startX="-85.0" startY="9.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="32-30" endX="-59.0" endY="-16.0" fill="$x2" layoutX="471.0" layoutY="279.0" startX="-85.0" startY="9.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="44-32" endX="-56.0" endY="-20.0" fill="$x2" layoutX="443.0" layoutY="308.0" startX="-85.0" startY="9.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="82-64" endX="-71.0" endY="-5.0" fill="$x2" layoutX="397.0" layoutY="354.0" startX="-87.0" startY="11.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="97-93" endX="-70.0" endY="-7.0" fill="$x2" layoutX="363.0" layoutY="389.0" startX="-89.0" startY="12.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="99-97" endX="-70.0" endY="-8.0" fill="$x2" layoutX="344.0" layoutY="409.0" startX="-89.0" startY="11.0" stroke="$x5" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <Line id="101-99" endX="-68.0" endY="-10.0" fill="$x2" layoutX="323.0" layoutY="430.0" startX="-88.0" startY="10.0" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false">
+      <stroke>
+        <Color blue="0.750" green="0.750" red="0.750" fx:id="x4" />
+      </stroke>
+    </Line>
+    <Line id="102-101" endX="-68.0" endY="-11.0" fill="WHITE" layoutX="303.0" layoutY="451.0" startX="-88.0" startY="9.0" stroke="$x4" strokeLineCap="ROUND" strokeType="CENTERED" strokeWidth="6.4" visible="false" />
+    <CubicCurve id="53-51-41" controlX1="-32.0" controlX2="-27.0" controlY1="-82.0" controlY2="-85.0" endX="-38.0" endY="-83.0" fill="#1e90ff00" layoutX="333.0" layoutY="347.0" startX="-31.0" startY="-83.0" stroke="$x5" strokeWidth="6.4" visible="false" />
+    <CubicCurve id="28-26" controlX1="-16.0" controlX2="-24.0" controlY1="-49.0" controlY2="-42.0" endX="-4.0" endY="-64.0" layoutX="460.0" layoutY="277.0" startX="-28.0" startY="-45.0" stroke="$x5" strokeWidth="6.4" visible="false">
+      <fill>
+        <Color blue="1.000" green="0.565" opacity="0.000" red="0.118" fx:id="x3" />
+      </fill>
+    </CubicCurve>
+    <CubicCurve id="60-33" controlX1="9.0" controlX2="23.0" controlY1="-55.0" controlY2="-45.0" endX="-3.0" endY="-69.0" fill="$x3" layoutX="441.0" layoutY="358.0" startX="15.0" startY="-17.0" stroke="$x5" strokeWidth="7.0" visible="false" />
+    <CubicCurve id="58-56" controlX1="-8.0" controlX2="-5.0" controlY1="-73.0" controlY2="-72.0" endX="3.0" endY="-64.0" fill="$x3" layoutX="205.0" layoutY="310.0" startX="-14.0" startY="-74.0" stroke="$x5" strokeWidth="6.4" visible="false" />
+    <CubicCurve id="61-58" controlX1="-8.0" controlX2="-23.0" controlY1="-73.0" controlY2="-70.0" endX="-30.0" endY="-63.0" fill="$x3" layoutX="204.0" layoutY="309.0" startX="-14.0" startY="-74.0" stroke="$x5" strokeWidth="6.9" visible="false" />
+    <CubicCurve id="83-81" controlX1="-19.0" controlX2="-28.0" controlY1="-67.0" controlY2="-58.0" endX="-34.0" endY="-59.0" fill="$x3" layoutX="120.0" layoutY="388.0" startX="-20.0" startY="-67.0" stroke="$x5" strokeWidth="6.4" visible="false" />
+    <CubicCurve id="119-118" controlX1="-19.0" controlX2="-28.0" controlY1="-67.0" controlY2="-58.0" endX="-34.0" endY="-59.0" fill="$x3" layoutX="146.0" layoutY="450.0" startX="-20.0" startY="-67.0" stroke="$x5" strokeWidth="6.4" visible="false" />
+    <CubicCurve id="53-41" controlX1="-38.0" controlX2="-31.0" controlY1="-75.0" controlY2="-58.0" endX="-34.0" endY="-59.0" fill="$x3" layoutX="323.0" layoutY="352.0" startX="-31.0" startY="-83.0" stroke="$x5" strokeWidth="6.4" visible="false" />
+    <CubicCurve id="19-17" controlX1="-23.0" controlX2="-26.0" controlY1="-104.0" controlY2="-102.0" endX="-52.0" endY="-102.0" fill="$x3" layoutX="421.0" layoutY="241.0" startX="-15.0" startY="-91.0" stroke="$x5" strokeWidth="6.4" visible="false" />
+    <CubicCurve id="72-69" controlX1="-27.0" controlX2="-27.0" controlY1="-62.0" controlY2="-61.0" endX="-34.0" endY="-59.0" fill="$x3" layoutX="100.0" layoutY="322.0" startX="-26.0" startY="-62.0" stroke="$x5" strokeWidth="6.4" visible="false" />
+    <CubicCurve id="70-62" controlX1="-29.0" controlX2="-30.0" controlY1="-68.0" controlY2="-64.0" endX="-35.0" endY="-59.0" fill="$x3" layoutX="317.0" layoutY="377.0" startX="-29.0" startY="-69.0" stroke="$x5" strokeWidth="6.4" visible="false" />
+    <CubicCurve id="54-47" controlX1="-44.0" controlX2="-48.0" controlY1="-98.0" controlY2="-100.0" endX="-56.0" endY="-107.0" fill="$x3" layoutX="271.0" layoutY="361.0" startX="-40.0" startY="-98.0" stroke="$x5" strokeWidth="6.4" visible="false" />
+    <CubicCurve id="28-27" controlX1="-44.0" controlX2="-49.0" controlY1="-91.0" controlY2="-99.0" endX="-56.0" endY="-107.0" fill="$x3" layoutX="468.0" layoutY="325.0" startX="-34.0" startY="-94.0" stroke="$x5" strokeWidth="6.4" visible="false" />
+    <CubicCurve id="123-122" controlX1="-1.0" controlX2="-10.0" controlY1="-66.0" controlY2="-78.0" endX="-12.0" endY="-76.0" fill="$x3" layoutX="541.0" layoutY="574.0" startX="2.0" startY="-57.0" stroke="$x5" strokeWidth="6.4" visible="false" />
+    <CubicCurve id="107-106" controlX1="-10.0" controlX2="-12.0" controlY1="-61.0" controlY2="-70.0" endX="-12.0" endY="-76.0" fill="$x3" layoutX="442.0" layoutY="583.0" startX="-18.0" startY="-64.0" stroke="$x5" strokeWidth="6.4" visible="false" />
+    <CubicCurve id="100-98" controlX1="-31.0" controlX2="-27.0" controlY1="-82.0" controlY2="-81.0" endX="-14.0" endY="-95.0" fill="$x3" layoutX="465.0" layoutY="521.0" startX="-35.0" startY="-69.0" stroke="$x5" strokeLineCap="SQUARE" strokeWidth="6.4" visible="false" />
+    <CubicCurve id="120-98" controlX1="27.0" controlX2="3.0" controlY1="-70.0" controlY2="-92.0" endX="-3.0" endY="-100.0" fill="$x3" layoutX="462.0" layoutY="526.0" startX="34.0" startY="-62.0" stroke="$x5" strokeLineCap="SQUARE" strokeWidth="6.4" visible="false" />
+    <CubicCurve id="30-28" controlX1="2.0" controlX2="-7.0" controlY1="-66.0" controlY2="-46.0" endX="-4.0" endY="-64.0" fill="$x3" layoutX="437.0" layoutY="297.0" startX="-24.0" startY="-34.0" stroke="$x4" strokeWidth="6.4" visible="false" />
+    <Circle id="101" fill="WHITE" layoutX="235.0" layoutY="440.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" visible="true" />
+    <Circle id="102" fill="WHITE" layoutX="215.0" layoutY="459.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="99" fill="WHITE" layoutX="255.0" layoutY="420.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="97" fill="WHITE" layoutX="274.0" layoutY="401.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="93" fill="WHITE" layoutX="293.0" layoutY="382.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="82" fill="WHITE" layoutX="310.0" layoutY="364.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="64" fill="WHITE" layoutX="325.0" layoutY="349.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="52" fill="WHITE" layoutX="339.0" layoutY="334.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="106" fill="WHITE" layoutX="431.0" layoutY="507.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="32" fill="WHITE" layoutX="386.0" layoutY="287.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="60" fill="WHITE" layoutX="455.0" layoutY="341.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="94" fill="WHITE" layoutX="455.0" layoutY="368.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="98" fill="WHITE" layoutX="455.0" layoutY="393.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="100" fill="WHITE" layoutX="430.0" layoutY="453.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="103" fill="WHITE" layoutX="430.0" layoutY="466.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="104" fill="WHITE" layoutX="430.0" layoutY="477.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="120" fill="WHITE" layoutX="496.0" layoutY="464.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="121" fill="WHITE" layoutX="513.0" layoutY="481.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="122" fill="WHITE" layoutX="531.0" layoutY="499.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="123" fill="WHITE" layoutX="543.0" layoutY="516.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="124" fill="WHITE" layoutX="543.0" layoutY="543.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="107" fill="WHITE" layoutX="424.0" layoutY="520.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="108" fill="WHITE" layoutX="411.0" layoutY="520.0" onMouseClicked="#onClick" radius="3.99993896484375" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="109" fill="WHITE" layoutX="398.0" layoutY="520.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="110" fill="WHITE" layoutX="384.0" layoutY="520.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="111" fill="WHITE" layoutX="370.0" layoutY="520.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="112" fill="WHITE" layoutX="357.0" layoutY="520.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="44" fill="WHITE" layoutX="357.0" layoutY="317.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="24" fill="WHITE" layoutX="393.0" layoutY="200.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="26" fill="WHITE" layoutX="458.0" layoutY="212.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="9" fill="WHITE" layoutX="552.0" layoutY="117.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="6" fill="WHITE" layoutX="569.0" layoutY="101.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="4" fill="WHITE" layoutX="584.0" layoutY="84.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="3" fill="WHITE" layoutX="604.0" layoutY="65.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="15" fill="WHITE" layoutX="433.0" layoutY="126.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="12" fill="WHITE" layoutX="433.0" layoutY="111.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="5" fill="WHITE" layoutX="433.0" layoutY="77.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="25" fill="WHITE" layoutX="370.0" layoutY="221.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="23" fill="WHITE" layoutX="342.0" layoutY="193.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="7" fill="WHITE" layoutX="255.0" layoutY="105.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="8" fill="WHITE" layoutX="232.0" layoutY="82.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="46" fill="WHITE" layoutX="239.0" layoutY="258.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="45" fill="WHITE" layoutX="231.0" layoutY="250.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="43" fill="WHITE" layoutX="223.0" layoutY="241.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="39" fill="WHITE" layoutX="214.0" layoutY="233.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="38" fill="WHITE" layoutX="206.0" layoutY="225.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="37" fill="WHITE" layoutX="198.0" layoutY="217.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="35" fill="WHITE" layoutX="190.0" layoutY="209.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="36" fill="WHITE" layoutX="182.0" layoutY="202.0" onMouseClicked="#onClick" radius="3.999950000001263" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="40" fill="WHITE" layoutX="175.0" layoutY="195.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="42" fill="WHITE" layoutX="168.0" layoutY="189.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="48" fill="WHITE" layoutX="157.0" layoutY="189.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="50" fill="WHITE" layoutX="146.0" layoutY="190.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="49" fill="WHITE" layoutX="138.0" layoutY="198.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="55" fill="WHITE" layoutX="130.0" layoutY="206.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="59" fill="WHITE" layoutX="122.0" layoutY="214.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="61" fill="WHITE" layoutX="175.0" layoutY="246.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="56" fill="WHITE" layoutX="206.0" layoutY="244.0" onMouseClicked="#onClick" radius="3.999950000001263" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="58" fill="WHITE" layoutX="190.0" layoutY="236.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="53" fill="WHITE" layoutX="290.0" layoutY="292.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="54" fill="WHITE" layoutX="217.0" layoutY="255.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="63" fill="WHITE" layoutX="166.0" layoutY="255.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="68" fill="WHITE" layoutX="159.0" layoutY="263.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="73" fill="WHITE" layoutX="150.0" layoutY="272.0" onMouseClicked="#onClick" radius="3.99993896484375" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="74" fill="WHITE" layoutX="139.0" layoutY="282.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="76" fill="WHITE" layoutX="130.0" layoutY="292.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="77" fill="WHITE" layoutX="121.0" layoutY="302.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="80" fill="WHITE" layoutX="110.0" layoutY="312.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="81" fill="WHITE" layoutX="100.0" layoutY="321.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="51" fill="WHITE" layoutX="279.0" layoutY="262.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="57" fill="WHITE" layoutX="231.0" layoutY="280.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="65" fill="WHITE" layoutX="221.0" layoutY="289.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="90" fill="WHITE" layoutX="212.0" layoutY="298.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="91" fill="WHITE" layoutX="203.0" layoutY="308.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="85" fill="WHITE" layoutX="194.0" layoutY="317.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="86" fill="WHITE" layoutX="184.0" layoutY="326.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="113" fill="WHITE" layoutX="175.0" layoutY="336.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="114" fill="WHITE" layoutX="165.0" layoutY="345.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="115" fill="WHITE" layoutX="155.0" layoutY="355.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="116" fill="WHITE" layoutX="146.0" layoutY="365.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="117" fill="WHITE" layoutX="135.0" layoutY="375.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="118" fill="WHITE" layoutX="126.0" layoutY="384.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="62" fill="WHITE" layoutX="287.0" layoutY="309.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="70" fill="WHITE" layoutX="282.0" layoutY="319.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="79" fill="WHITE" layoutX="273.0" layoutY="327.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="84" fill="WHITE" layoutX="264.0" layoutY="336.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="87" fill="WHITE" layoutX="256.0" layoutY="344.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="88" fill="WHITE" layoutX="248.0" layoutY="352.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="89" fill="WHITE" layoutX="241.0" layoutY="359.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="92" fill="WHITE" layoutX="233.0" layoutY="367.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="95" fill="WHITE" layoutX="225.0" layoutY="375.0" onMouseClicked="#onClick" radius="3.999950000001263" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="34" fill="WHITE" layoutX="332.0" layoutY="262.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="33" fill="WHITE" layoutX="438.0" layoutY="288.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="13" fill="WHITE" layoutX="519.0" layoutY="151.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="10" fill="WHITE" layoutX="276.0" layoutY="126.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="14" fill="WHITE" layoutX="298.0" layoutY="149.0" onMouseClicked="#onClick" radius="3.999988964842487" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="21" fill="WHITE" layoutX="321.0" layoutY="172.0" onMouseClicked="#onClick" radius="3.99993896484375" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="17" fill="WHITE" layoutX="370.0" layoutY="139.0" onMouseClicked="#onClick" radius="3.999950000001263" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="19" fill="WHITE" layoutX="405.0" layoutY="148.0" onMouseClicked="#onClick" radius="3.999950000001263" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="1" fill="WHITE" layoutX="433.0" layoutY="43.0" onMouseClicked="#onClick" radius="3.9999999320971256" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="11" fill="WHITE" layoutX="536.0" layoutY="133.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="66" fill="WHITE" layoutX="115.0" layoutY="221.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="83" fill="WHITE" layoutX="86.0" layoutY="329.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="119" fill="WHITE" layoutX="113.0" layoutY="392.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="96" fill="WHITE" layoutX="217.0" layoutY="383.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="2" fill="WHITE" layoutX="433.0" layoutY="60.0" onMouseClicked="#onClick" radius="3.999950000001263" stroke="BLACK" strokeType="INSIDE" />
+    <Rectangle id="105" arcHeight="5.0" arcWidth="0.0" fill="WHITE" height="14.499992370605469" layoutX="427.0" layoutY="485.0" onMouseClicked="#onClick" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="CENTERED" width="6.99993896484375" />
+    <Circle id="31" fill="WHITE" layoutX="358.0" layoutY="262.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="16" fill="WHITE" layoutX="504.0" layoutY="165.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="67" fill="WHITE" layoutX="108.0" layoutY="229.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="71" fill="WHITE" layoutX="100.0" layoutY="236.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="78" fill="WHITE" layoutX="92.0" layoutY="244.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="75" fill="WHITE" layoutX="83.0" layoutY="253.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="72" fill="WHITE" layoutX="75.0" layoutY="260.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Circle id="69" fill="WHITE" layoutX="65.0" layoutY="263.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Rectangle id="22" arcHeight="5.0" arcWidth="0.0" fill="WHITE" height="6.999870300292969" layoutX="422.0" layoutY="194.0" onMouseClicked="#onClick" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="CENTERED" width="12.49993896484375" />
+    <Rectangle id="20" arcHeight="5.0" arcWidth="0.0" fill="WHITE" height="6.999870300292969" layoutX="422.0" layoutY="171.0" onMouseClicked="#onClick" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="CENTERED" width="12.500038964841224" />
+    <Rectangle id="30" arcHeight="5.0" arcWidth="0.0" fill="WHITE" height="6.999870300292969" layoutX="409.0" layoutY="259.0" onMouseClicked="#onClick" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="CENTERED" width="6.99981689453125" />
+    <Rectangle id="29" arcHeight="5.0" arcWidth="0.0" fill="WHITE" height="6.999870300292969" layoutX="383.0" layoutY="234.0" onMouseClicked="#onClick" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="CENTERED" width="6.99981689453125" />
+    <Rectangle id="28" arcHeight="5.0" arcWidth="0.0" fill="WHITE" height="6.999870300292969" layoutX="429.0" layoutY="229.0" onMouseClicked="#onClick" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="CENTERED" width="6.99981689453125" />
+    <Rectangle id="27" arcHeight="5.0" arcWidth="0.0" fill="WHITE" height="6.9999703002904425" layoutX="405.0" layoutY="211.0" onMouseClicked="#onClick" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="CENTERED" width="6.99981689453125" />
+    <Circle id="18" fill="WHITE" layoutX="489.0" layoutY="181.0" onMouseClicked="#onClick" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+    <Rectangle id="41" arcHeight="5.0" arcWidth="0.0" fill="WHITE" height="6.999870300292969" layoutX="302.0" layoutY="260.0" onMouseClicked="#onClick" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="CENTERED" width="6.99981689453125" />
+    <Rectangle id="47" arcHeight="5.0" arcWidth="0.0" fill="WHITE" height="6.999870300292969" layoutX="248.0" layoutY="260.0" onMouseClicked="#onClick" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="CENTERED" width="6.99981689453125" />
+    <VBox alignment="TOP_CENTER" layoutX="655.0" layoutY="2.0" prefHeight="645.0" prefWidth="485.0">
+      <children>
+        <Label text="Boston Metro System">
+          <font>
+            <Font size="27.0" />
+          </font>
+          <VBox.margin>
+            <Insets bottom="30.0" top="20.0" />
+          </VBox.margin>
+        </Label>
+        <ImageView fitHeight="101.0" fitWidth="113.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@logo.png" />
+          </image>
+          <VBox.margin>
+            <Insets bottom="30.0" />
+          </VBox.margin>
+        </ImageView>
+        <Label text="Starting Station:">
+          <VBox.margin>
+            <Insets bottom="20.0" />
+          </VBox.margin>
+        </Label>
+        <ComboBox fx:id="start" maxHeight="1.7976931348623157E308" maxWidth="-1.0" minHeight="-1.0" minWidth="-1.0" prefWidth="269.0">
+          <items>
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="Airport" />
+              <String fx:value="Alewife" />
+              <String fx:value="AllstonStreet" />
+              <String fx:value="Andrew" />
+              <String fx:value="Aquarium" />
+              <String fx:value="Arlington" />
+              <String fx:value="Ashmont" />
+              <String fx:value="BabcockStreet" />
+              <String fx:value="BackBay/SouthEnd" />
+              <String fx:value="BackOfTheHill" />
+              <String fx:value="Beachmont" />
+              <String fx:value="Beaconsfield" />
+              <String fx:value="BlandfordStreet" />
+              <String fx:value="BostonCollege" />
+              <String fx:value="BostonUniversityCentral" />
+              <String fx:value="BostonUniversityEast" />
+              <String fx:value="BostonUniversityWest" />
+              <String fx:value="Bowdoin" />
+              <String fx:value="Boylston" />
+              <String fx:value="Braintree" />
+              <String fx:value="BrandonHall" />
+              <String fx:value="BrighamCircle" />
+              <String fx:value="BrightonAvenue" />
+              <String fx:value="Broadway" />
+              <String fx:value="BrooklineHills" />
+              <String fx:value="BrooklineVillage" />
+              <String fx:value="ButlerStreet" />
+              <String fx:value="CapenStreet" />
+              <String fx:value="CedarGrove" />
+              <String fx:value="Central" />
+              <String fx:value="CentralAvenue" />
+              <String fx:value="Charles/MGH" />
+              <String fx:value="ChesnutHill" />
+              <String fx:value="ChestnutHillAvenue" />
+              <String fx:value="Chinatown" />
+              <String fx:value="ChiswickRoad" />
+              <String fx:value="ClevelandCircle" />
+              <String fx:value="CommunityCollege" />
+              <String fx:value="CoolidgeCorner" />
+              <String fx:value="Copley" />
+              <String fx:value="Davis" />
+              <String fx:value="DeanRoad" />
+              <String fx:value="DowntownCrossing" />
+              <String fx:value="Eliot" />
+              <String fx:value="EnglewoodAvenue" />
+              <String fx:value="FairbanksStreet" />
+              <String fx:value="Fenway" />
+              <String fx:value="FenwoodRoad" />
+              <String fx:value="FieldsCorner" />
+              <String fx:value="FordhamRoad" />
+              <String fx:value="ForestHills" />
+              <String fx:value="GovernmentCenter" />
+              <String fx:value="GreenStreet" />
+              <String fx:value="GreycliffRoad" />
+              <String fx:value="GriggsStreet/LongwoodAvenue" />
+              <String fx:value="Harvard" />
+              <String fx:value="HarvardAvenue" />
+              <String fx:value="HawesStreet" />
+              <String fx:value="Haymarket" />
+              <String fx:value="HeathStreet" />
+              <String fx:value="Hynes/ICA" />
+              <String fx:value="JFK/UMass" />
+              <String fx:value="JacksonSquare" />
+              <String fx:value="Kendall" />
+              <String fx:value="Kenmore" />
+              <String fx:value="KentStreet" />
+              <String fx:value="Lechmere" />
+              <String fx:value="Longwood" />
+              <String fx:value="LongwoodMedicalArea" />
+              <String fx:value="Malden" />
+              <String fx:value="MassachusettsAvenue" />
+              <String fx:value="Mattapan" />
+              <String fx:value="Maverick" />
+              <String fx:value="Milton" />
+              <String fx:value="MissionPark" />
+              <String fx:value="MountHoodRoad" />
+              <String fx:value="MuseumofFineArts" />
+              <String fx:value="NewEnglandMedicalCenter" />
+              <String fx:value="NewtonCenter" />
+              <String fx:value="NewtonHighlands" />
+              <String fx:value="NorthQuincy" />
+              <String fx:value="NorthStation" />
+              <String fx:value="NortheasternUniversity" />
+              <String fx:value="OakGrove" />
+              <String fx:value="OrientHeights" />
+              <String fx:value="ParkStreet" />
+              <String fx:value="PleasantStreet" />
+              <String fx:value="Porter" />
+              <String fx:value="Prudential" />
+              <String fx:value="QuincyAdams" />
+              <String fx:value="QuincyCenter" />
+              <String fx:value="Reservoir" />
+              <String fx:value="RevereBeach" />
+              <String fx:value="Riverside" />
+              <String fx:value="Riverway" />
+              <String fx:value="RoxburyCrossing" />
+              <String fx:value="Ruggles" />
+              <String fx:value="SavinHill" />
+              <String fx:value="SciencePark" />
+              <String fx:value="Shawmut" />
+              <String fx:value="SouthStation" />
+              <String fx:value="SouthStreet" />
+              <String fx:value="St.Mary'sStreet" />
+              <String fx:value="St.PaulStreetEast" />
+              <String fx:value="St.PaulStreetWest" />
+              <String fx:value="State" />
+              <String fx:value="StonyBrook" />
+              <String fx:value="SuffolkDowns" />
+              <String fx:value="SullivanSquare" />
+              <String fx:value="SummitAvenue" />
+              <String fx:value="SutherlandRoad" />
+              <String fx:value="Symphony" />
+              <String fx:value="TappanStreet" />
+              <String fx:value="ValleyRoad" />
+              <String fx:value="Waban" />
+              <String fx:value="WarrenStreet" />
+              <String fx:value="WashingtonSquare" />
+              <String fx:value="WashingtonStreet" />
+              <String fx:value="Wellington" />
+              <String fx:value="WinchesterStreet/SummitAv." />
+              <String fx:value="Wollaston" />
+              <String fx:value="Wonderland" />
+              <String fx:value="WoodIsland" />
+              <String fx:value="Woodland" />
+            </FXCollections>
+          </items>
+          <VBox.margin>
+            <Insets bottom="20.0" />
+          </VBox.margin>
+        </ComboBox>
+        <Separator prefWidth="454.0" />
+        <Label fx:id="welcomeText" text="Destination Station:">
+          <VBox.margin>
+            <Insets top="20.0" />
+          </VBox.margin>
+        </Label>
+        <ComboBox fx:id="destination" prefWidth="256.0">
+          <items>
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="Airport" />
+              <String fx:value="Alewife" />
+              <String fx:value="AllstonStreet" />
+              <String fx:value="Andrew" />
+              <String fx:value="Aquarium" />
+              <String fx:value="Arlington" />
+              <String fx:value="Ashmont" />
+              <String fx:value="BabcockStreet" />
+              <String fx:value="BackBay/SouthEnd" />
+              <String fx:value="BackOfTheHill" />
+              <String fx:value="Beachmont" />
+              <String fx:value="Beaconsfield" />
+              <String fx:value="BlandfordStreet" />
+              <String fx:value="BostonCollege" />
+              <String fx:value="BostonUniversityCentral" />
+              <String fx:value="BostonUniversityEast" />
+              <String fx:value="BostonUniversityWest" />
+              <String fx:value="Bowdoin" />
+              <String fx:value="Boylston" />
+              <String fx:value="Braintree" />
+              <String fx:value="BrandonHall" />
+              <String fx:value="BrighamCircle" />
+              <String fx:value="BrightonAvenue" />
+              <String fx:value="Broadway" />
+              <String fx:value="BrooklineHills" />
+              <String fx:value="BrooklineVillage" />
+              <String fx:value="ButlerStreet" />
+              <String fx:value="CapenStreet" />
+              <String fx:value="CedarGrove" />
+              <String fx:value="Central" />
+              <String fx:value="CentralAvenue" />
+              <String fx:value="Charles/MGH" />
+              <String fx:value="ChesnutHill" />
+              <String fx:value="ChestnutHillAvenue" />
+              <String fx:value="Chinatown" />
+              <String fx:value="ChiswickRoad" />
+              <String fx:value="ClevelandCircle" />
+              <String fx:value="CommunityCollege" />
+              <String fx:value="CoolidgeCorner" />
+              <String fx:value="Copley" />
+              <String fx:value="Davis" />
+              <String fx:value="DeanRoad" />
+              <String fx:value="DowntownCrossing" />
+              <String fx:value="Eliot" />
+              <String fx:value="EnglewoodAvenue" />
+              <String fx:value="FairbanksStreet" />
+              <String fx:value="Fenway" />
+              <String fx:value="FenwoodRoad" />
+              <String fx:value="FieldsCorner" />
+              <String fx:value="FordhamRoad" />
+              <String fx:value="ForestHills" />
+              <String fx:value="GovernmentCenter" />
+              <String fx:value="GreenStreet" />
+              <String fx:value="GreycliffRoad" />
+              <String fx:value="GriggsStreet/LongwoodAvenue" />
+              <String fx:value="Harvard" />
+              <String fx:value="HarvardAvenue" />
+              <String fx:value="HawesStreet" />
+              <String fx:value="Haymarket" />
+              <String fx:value="HeathStreet" />
+              <String fx:value="Hynes/ICA" />
+              <String fx:value="JFK/UMass" />
+              <String fx:value="JacksonSquare" />
+              <String fx:value="Kendall" />
+              <String fx:value="Kenmore" />
+              <String fx:value="KentStreet" />
+              <String fx:value="Lechmere" />
+              <String fx:value="Longwood" />
+              <String fx:value="LongwoodMedicalArea" />
+              <String fx:value="Malden" />
+              <String fx:value="MassachusettsAvenue" />
+              <String fx:value="Mattapan" />
+              <String fx:value="Maverick" />
+              <String fx:value="Milton" />
+              <String fx:value="MissionPark" />
+              <String fx:value="MountHoodRoad" />
+              <String fx:value="MuseumofFineArts" />
+              <String fx:value="NewEnglandMedicalCenter" />
+              <String fx:value="NewtonCenter" />
+              <String fx:value="NewtonHighlands" />
+              <String fx:value="NorthQuincy" />
+              <String fx:value="NorthStation" />
+              <String fx:value="NortheasternUniversity" />
+              <String fx:value="OakGrove" />
+              <String fx:value="OrientHeights" />
+              <String fx:value="ParkStreet" />
+              <String fx:value="PleasantStreet" />
+              <String fx:value="Porter" />
+              <String fx:value="Prudential" />
+              <String fx:value="QuincyAdams" />
+              <String fx:value="QuincyCenter" />
+              <String fx:value="Reservoir" />
+              <String fx:value="RevereBeach" />
+              <String fx:value="Riverside" />
+              <String fx:value="Riverway" />
+              <String fx:value="RoxburyCrossing" />
+              <String fx:value="Ruggles" />
+              <String fx:value="SavinHill" />
+              <String fx:value="SciencePark" />
+              <String fx:value="Shawmut" />
+              <String fx:value="SouthStation" />
+              <String fx:value="SouthStreet" />
+              <String fx:value="St.Mary'sStreet" />
+              <String fx:value="St.PaulStreetEast" />
+              <String fx:value="St.PaulStreetWest" />
+              <String fx:value="State" />
+              <String fx:value="StonyBrook" />
+              <String fx:value="SuffolkDowns" />
+              <String fx:value="SullivanSquare" />
+              <String fx:value="SummitAvenue" />
+              <String fx:value="SutherlandRoad" />
+              <String fx:value="Symphony" />
+              <String fx:value="TappanStreet" />
+              <String fx:value="ValleyRoad" />
+              <String fx:value="Waban" />
+              <String fx:value="WarrenStreet" />
+              <String fx:value="WashingtonSquare" />
+              <String fx:value="WashingtonStreet" />
+              <String fx:value="Wellington" />
+              <String fx:value="WinchesterStreet/SummitAv." />
+              <String fx:value="Wollaston" />
+              <String fx:value="Wonderland" />
+              <String fx:value="WoodIsland" />
+              <String fx:value="Woodland" />
+            </FXCollections>
+          </items>
+          <VBox.margin>
+            <Insets bottom="20.0" top="20.0" />
+          </VBox.margin>
+        </ComboBox>
+        <Button fx:id="submitButton" onAction="#onButtonClick" text="Submit">
+          <VBox.margin>
+            <Insets bottom="20.0" />
+          </VBox.margin>
+        </Button>
+        <Label fx:id="displayOutput" alignment="CENTER" contentDisplay="CENTER" prefHeight="19.0" prefWidth="381.0" textAlignment="CENTER" visible="true" wrapText="true" />
+         <Label fx:id="dispTime" alignment="CENTER" contentDisplay="CENTER" prefHeight="19.0" prefWidth="381.0" textAlignment="CENTER" visible="true" wrapText="true" />
+        
+        <TextArea fx:id="testPrint" editable="false" maxHeight="103.0" prefHeight="103.0" prefWidth="445.0" promptText="Best route/s to be followed: ..." wrapText="true">
+          <VBox.margin>
+            <Insets left="20.0" right="20.0" top="20.0" />
+          </VBox.margin>
+        </TextArea>
+      </children>
+    </VBox>
+  </children>
+</AnchorPane>
